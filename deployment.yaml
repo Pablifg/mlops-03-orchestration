@@ -11,7 +11,7 @@ deployments:
   #schedule: 
     # cron: 0 9 3 * *
     # timezone: Etc/UTC
-  entrypoint: ./orchestrate_2.py:main_flow
+  entrypoint: ./orchestrate_2.py:main_flow2
   #parameters: {}
   work_pool:
     name: taxipool2
